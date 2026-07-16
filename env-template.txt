@@ -10,7 +10,7 @@ MYSQL_USER=thinktank
 MYSQL_PASSWORD=thinktank_pw
 
 # --- 應用程式 ---
-PORT=3000
+PORT=6005
 JWT_SECRET=your-jwt-secret-change-me-to-random-string
 
 # --- LLM API (必填，用於真實 AI 運算) ---
@@ -27,3 +27,8 @@ VITE_OAUTH_PORTAL_URL=
 # --- 前端 LLM (可選) ---
 VITE_FRONTEND_FORGE_API_URL=
 VITE_FRONTEND_FORGE_API_KEY=
+
+# --- Analytics (分析端點，避免本機解析錯誤) ---
+VITE_ANALYTICS_ENDPOINT=http://localhost
+VITE_ANALYTICS_WEBSITE_ID=local
+
