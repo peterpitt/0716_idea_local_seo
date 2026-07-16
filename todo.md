@@ -1,0 +1,21 @@
+# Project TODO
+
+- [x] Dark tech UI theme with black background and gold/amber accent colors
+- [x] Landing Page with hero section introducing the AI Think Tank concept
+- [x] 12 AI advisor member cards with icon avatars, names, and expertise areas
+- [x] Idea input interface with text area for submitting business ideas
+- [x] Backend: Database schema for sessions and analysis results
+- [x] Backend: LLM streaming API for Stage 1 - 群雄激辯 (Brainstorming & Debate)
+- [x] Backend: LLM streaming API for Stage 2 - 戰略收斂 (Strategic Convergence)
+- [x] Backend: LLM streaming API for Stage 3 - 落地藍圖 (The Solopreneur Blueprint)
+- [x] Backend: LLM streaming API for Stage 4 - AI 執行指令 (AI Execution Ready Codes & Prompts)
+- [x] Backend: LLM streaming API for Stage 5 - AI 行銷與全自動變現引擎 (The AI Monetization Engine)
+- [x] Frontend: Streaming display with Markdown rendering for all 5 stages
+- [x] Frontend: Stage-by-stage progressive reveal UI
+- [x] History page: List past analysis sessions with ability to review
+- [x] Authentication integration for saving user history
+- [x] Vitest unit tests for backend procedures
+- [x] Export/download complete analysis report as Markdown file after all 5 stages complete
+- [x] Store all ideas in database for learning reference (already stored in analysis_sessions)
+- [x] Add "download report" button on analysis page when all stages are completed
+- [x] Package all 5 stages into a single formatted Markdown document for download

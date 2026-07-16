@@ -1,0 +1,29 @@
+# ============================================
+# 一人公司頂級 AI 專家智囊團 - 環境變數設定範本
+# ============================================
+# 複製此檔案為 .env 並填入實際值
+
+# --- 資料庫 (Docker Compose 將自動設定) ---
+MYSQL_ROOT_PASSWORD=thinktank_root_pw
+MYSQL_DATABASE=thinktank
+MYSQL_USER=thinktank
+MYSQL_PASSWORD=thinktank_pw
+
+# --- 應用程式 ---
+PORT=3000
+JWT_SECRET=your-jwt-secret-change-me-to-random-string
+
+# --- LLM API (必填，用於真實 AI 運算) ---
+# 支援 OpenAI 相容 API 格式
+BUILT_IN_FORGE_API_URL=https://api.openai.com
+BUILT_IN_FORGE_API_KEY=your_openai_api_key_here
+
+# --- OAuth (可選，若不需要登入限制可留空) ---
+VITE_APP_ID=local
+OAUTH_SERVER_URL=
+OWNER_OPEN_ID=local-owner
+VITE_OAUTH_PORTAL_URL=
+
+# --- 前端 LLM (可選) ---
+VITE_FRONTEND_FORGE_API_URL=
+VITE_FRONTEND_FORGE_API_KEY=
