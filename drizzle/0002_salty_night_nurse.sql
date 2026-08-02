@@ -1,0 +1,2 @@
+-- Migration 0002: subscription columns already exist in the database due to a previous drizzle-kit push
+-- Emptying migration to sync local schema metadata without SQL errors.

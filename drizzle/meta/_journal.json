@@ -15,6 +15,13 @@
       "when": 1781371171661,
       "tag": "0001_flaky_turbo",
       "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "5",
+      "when": 1784211083516,
+      "tag": "0002_salty_night_nurse",
+      "breakpoints": true
     }
   ]
 }

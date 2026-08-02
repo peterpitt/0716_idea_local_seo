@@ -92,6 +92,16 @@ export const appRouter = router({
         return { markdown, idea: session.idea, createdAt: session.createdAt };
       }),
   }),
+
+  shorts: router({
+    generatePipeline: publicProcedure
+      .input(z.object({ idea: z.string().min(1), channelName: z.string().optional() }))
+      .query(({ input }) => {
+        const { generateShortsToolchain } = require("./shortsPrompts");
+        return generateShortsToolchain(input.idea, input.channelName || "@asusu-w3l");
+      }),
+  }),
 });
 
 export type AppRouter = typeof appRouter;
+
